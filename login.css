@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Стили для всего окна */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f5;
+}
+
+/* Стиль формы */
+.login-container {
+  background-color: #fff;
+  padding: 20px 30px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Заголовок формы */
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Стили полей ввода */
+.login-container input[type="text"],
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Кнопка входа */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #828282;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Изменение цвета кнопки при наведении */
+.login-container button:hover {
+  background-color: #000000;
+}
+
+/* Ссылка на регистрацию */
+.login-container .register-link {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #828282;
+  text-decoration: none;
+}
+
+.login-container .register-link:hover {
+  text-decoration: underline;
+}
+
+.order{
+  color: #000000;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;box-sizing: border-box;
+}
